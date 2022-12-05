@@ -12,6 +12,10 @@ With docker there are some space issues, on Android Emulator from Android Studio
 
 # WARNING: You can adjust all the paths other than /data/local/tmp/re.frida.server and /mnt/scratch/libandroid-shmem.so (otherwise you need to modify components)
 
+# INFO Initially used it with Frida 14, but it also works with latest Frida 16. Please use latest Frida version
+
+
+
 ## Install NDK
 
 make toolchain ie under $HOME/x86_64
